@@ -1,0 +1,23 @@
+header{
+    text-align: left;
+    background-color: rgb(148, 148, 148);
+    display: flex;
+    position: relative;
+}
+.logotipo{
+    width: 150px;
+    text-align: center;
+    border: solid black 2px;
+}
+nav{
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    left: 700px;
+    top: 50px;
+}
+li{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
