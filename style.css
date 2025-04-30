@@ -1,18 +1,29 @@
-body{
-    display: grid;
-    grid-template-areas: ;
-}
 header{
-grid-template: cabe ;
-background-color: red
+    text-align: left;
+    background-color: rgb(148, 148, 148);
+    display: flex;
+    position: relative;
 }
-aside{
-    grid-template: 
+nav{
+    position: absolute;
+    text-align: center;
+    left: 580px;
+    top: 77px;
+}
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
 
+nav li {
+    display: inline-block; 
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 4px;
 }
-main{
-
-}
-footer{
-   grid-template: ; 
+img{
+   width: 200px;
+   text-align: center;
+   border: solid black 2px;
 }
