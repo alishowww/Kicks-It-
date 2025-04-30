@@ -4,20 +4,26 @@ header{
     display: flex;
     position: relative;
 }
-.logotipo{
-    width: 150px;
-    text-align: center;
-    border: solid black 2px;
-}
 nav{
-    width: 400px;
     position: absolute;
     text-align: center;
-    left: 700px;
-    top: 50px;
+    left: 580px;
+    top: 77px;
 }
-li{
-    display: inline;
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block; 
     margin: 10px;
     text-align: center;
+    letter-spacing: 4px;
+}
+img{
+   width: 200px;
+   text-align: center;
+   border: solid black 2px;
 }
